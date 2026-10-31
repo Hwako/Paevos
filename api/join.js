@@ -38,28 +38,28 @@ function welcomeEmail() {
   const serif = "Georgia,'Times New Roman',serif";
   const sans = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
   const mono = "'SFMono-Regular',Menlo,Consolas,'Courier New',monospace";
-  const row = (label, value, color) => `<tr><td style="padding:10px 0;border-top:1px solid #E7E6E2;font:15px/1.5 ${sans};color:#17161D"><span style="display:inline-block;width:10px;height:10px;border-radius:5px;background:${color};margin-right:10px"></span><b style="font-family:${serif};font-size:18px;font-weight:600">${label}</b> <span style="color:#64626C">${value}</span></td></tr>`;
-  const line = (l, r) => `<tr><td style="padding:3px 0;font:13px/1.5 ${mono};color:#1C1B22">${l}</td><td align="right" style="padding:3px 0;font:13px/1.5 ${mono};color:#1C1B22">${r}</td></tr>`;
+  const row = (label, value, color) => `<tr><td style="padding:10px 0;border-top:1px solid #D9DED8;font:15px/1.5 ${sans};color:#102A30"><span style="display:inline-block;width:10px;height:10px;border-radius:5px;background:${color};margin-right:10px"></span><b style="font-family:${serif};font-size:18px;font-weight:600">${label}</b> <span style="color:#68777B">${value}</span></td></tr>`;
+  const line = (l, r) => `<tr><td style="padding:3px 0;font:13px/1.5 ${mono};color:#102A30">${l}</td><td align="right" style="padding:3px 0;font:13px/1.5 ${mono};color:#102A30">${r}</td></tr>`;
   const html = `<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>${subject}</title></head>
-<body style="margin:0;padding:0;background:#F1F1EF">
+<body style="margin:0;padding:0;background:#F3F1EB">
 <div style="display:none;max-height:0;overflow:hidden;opacity:0">One less money question to worry about. Here's what happens next.</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F1F1EF"><tr><td align="center" style="padding:28px 14px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F3F1EB"><tr><td align="center" style="padding:28px 14px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px">
-<tr><td style="background:#2D2552;padding:22px 28px 0">
+<tr><td style="background:#075B63;padding:22px 28px 0">
   <table role="presentation" cellpadding="0" cellspacing="0"><tr>
     <td style="vertical-align:middle"><img src="https://paevos.com/assets/logo-email.png" width="36" height="36" alt="" style="display:block;border:0;border-radius:8px"></td>
     <td style="vertical-align:middle;padding-left:10px;font:600 18px ${sans};color:#FFFFFF;letter-spacing:-0.2px">Paevos</td>
   </tr></table>
 </td></tr>
-<tr><td style="background:#2D2552;padding:26px 28px 30px">
-  <div style="font:500 44px/1.02 ${serif};color:#FFFFFF;letter-spacing:-1px">You're on<br>the <span style="color:#B7ADE8">list.</span></div>
-  <div style="font:16px/1.55 ${sans};color:#D9D6EE;margin-top:14px">Smart move. That was the easiest money decision you'll make all week.</div>
+<tr><td style="background:#075B63;padding:26px 28px 30px">
+  <div style="font:500 44px/1.02 ${serif};color:#FFFFFF;letter-spacing:-1px">You're on<br>the <span style="color:#53C6A2">list.</span></div>
+  <div style="font:16px/1.55 ${sans};color:#CFE6E2;margin-top:14px">Smart move. That was the easiest money decision you'll make all week.</div>
 </td></tr>
-<tr><td style="background:#2D2552;padding:0 28px 30px">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F6F5F1;border-radius:2px">
+<tr><td style="background:#075B63;padding:0 28px 30px">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFDFC;border-radius:2px">
     <tr><td style="padding:18px 20px 6px">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-        <tr><td style="padding-bottom:8px;border-bottom:1px solid #1C1B22;font:600 12px ${sans};letter-spacing:2px;color:#1C1B22">PAEVOS CHECK</td><td align="right" style="padding-bottom:8px;border-bottom:1px solid #1C1B22;font:12px ${mono};color:#6B6973">paevos.com</td></tr>
+        <tr><td style="padding-bottom:8px;border-bottom:1px solid #102A30;font:600 12px ${sans};letter-spacing:2px;color:#102A30">PAEVOS CHECK</td><td align="right" style="padding-bottom:8px;border-bottom:1px solid #102A30;font:12px ${mono};color:#68777B">paevos.com</td></tr>
         <tr><td colspan="2" style="height:8px"></td></tr>
         ${line('Joining the waitlist', '$0.00')}
         ${line('Launch date', 'soon')}
@@ -68,33 +68,33 @@ function welcomeEmail() {
     </td></tr>
     <tr><td style="padding:6px 20px 18px">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-        <td style="border-top:2px dashed #C9C7C0;padding-top:12px;font:13px ${mono};color:#6B6973">Verdict</td>
-        <td align="right" style="border-top:2px dashed #C9C7C0;padding-top:10px"><span style="display:inline-block;border:2px solid #3F7A52;color:#3F7A52;font:700 14px ${mono};letter-spacing:3px;padding:3px 12px">FITS</span></td>
+        <td style="border-top:2px dashed #D9DED8;padding-top:12px;font:13px ${mono};color:#68777B">Verdict</td>
+        <td align="right" style="border-top:2px dashed #D9DED8;padding-top:10px"><span style="display:inline-block;border:2px solid #168A61;color:#168A61;font:700 14px ${mono};letter-spacing:3px;padding:3px 12px">FITS</span></td>
       </tr></table>
     </td></tr>
   </table>
 </td></tr>
-<tr><td style="background:#FFFFFF;padding:30px 28px 8px;font:16px/1.6 ${sans};color:#17161D">
+<tr><td style="background:#FFFFFF;padding:30px 28px 8px;font:16px/1.6 ${sans};color:#102A30">
   Paevos is a money assistant for your iPhone. Connect your bank once and it tells you what you can spend <i>today</i>, whether that thing in your cart actually fits, and how close you are to the stuff you're saving for.
 </td></tr>
 <tr><td style="background:#FFFFFF;padding:14px 28px 6px">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-    ${row('Know it.', 'See where every dollar goes.', '#8F82D6')}
-    ${row('Plan it.', 'A fresh daily budget every morning.', '#C3A260')}
-    ${row('Own it.', 'Goals with real finish dates.', '#6F9680')}
+    ${row('Know it.', 'See where every dollar goes.', '#087E8B')}
+    ${row('Plan it.', 'A fresh daily budget every morning.', '#D69A2D')}
+    ${row('Own it.', 'Goals with real finish dates.', '#168A61')}
   </table>
 </td></tr>
-<tr><td style="background:#FFFFFF;padding:18px 28px 6px;font:16px/1.6 ${sans};color:#17161D">
+<tr><td style="background:#FFFFFF;padding:18px 28px 6px;font:16px/1.6 ${sans};color:#102A30">
   <b>What happens now?</b> We keep building. You'll get exactly one more email from us: the day Paevos hits the App Store.
 </td></tr>
-<tr><td style="background:#FFFFFF;padding:18px 28px 28px;font:16px/1.6 ${sans};color:#17161D">
-  Talk soon,<br><span style="font:500 22px ${serif}">Hamza</span><br><span style="color:#64626C;font-size:14px">Building Paevos in Los Angeles</span>
+<tr><td style="background:#FFFFFF;padding:18px 28px 28px;font:16px/1.6 ${sans};color:#102A30">
+  Talk soon,<br><span style="font:500 22px ${serif}">Hamza</span><br><span style="color:#68777B;font-size:14px">Building Paevos in Los Angeles</span>
 </td></tr>
-<tr><td style="background:#EDEAFB;padding:16px 28px;font:14px/1.55 ${sans};color:#2D2552">
-  <b>P.S.</b> Know someone who checks their bank app with one eye closed? Send them <a href="https://paevos.com" style="color:#2D2552;font-weight:600">paevos.com</a>.
+<tr><td style="background:#E2F4EE;padding:16px 28px;font:14px/1.55 ${sans};color:#075B63">
+  <b>P.S.</b> Know someone who checks their bank app with one eye closed? Send them <a href="https://paevos.com" style="color:#075B63;font-weight:600">paevos.com</a>.
 </td></tr>
-<tr><td style="padding:18px 28px;font:12px/1.6 ${sans};color:#8A8893;text-align:center">
-  You're getting this because you joined the waitlist at <a href="https://paevos.com" style="color:#8A8893">paevos.com</a>. Not you? You can ignore this email.
+<tr><td style="padding:18px 28px;font:12px/1.6 ${sans};color:#8A9699;text-align:center">
+  You're getting this because you joined the waitlist at <a href="https://paevos.com" style="color:#8A9699">paevos.com</a>. Not you? You can ignore this email.
 </td></tr>
 </table>
 </td></tr></table>
