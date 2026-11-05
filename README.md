@@ -4,7 +4,7 @@ Pre-launch site and waitlist for Paevos, a money assistant for iPhone. Live at h
 
 ## Layout
 
-- `src/index.html` the whole page (styles and scripts inline); `build.sh` copies it to `public/` and adds the link preview tags
+- `src/index.html` the whole page (styles and scripts inline; motion via GSAP, ScrollTrigger and Lenis from CDNs); `build.sh` copies it to `public/` and adds the link preview tags
 - `src/meta.html` link preview tags (X, iMessage, etc.)
 - `api/join.js` Vercel function: adds the email to Resend contacts and sends the welcome email
 - `assets/` email logo and link preview image
